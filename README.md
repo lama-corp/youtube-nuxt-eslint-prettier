@@ -1,7 +1,45 @@
-# youtube-nuxt-eslint-prettier
+# Nuxt Layouts
 
-## Build Setup
+Nuxt 2 layouts : bases, imbrication, transitions et passage de données
 
+## Video description
+
+Fonctionnalité de base de Nuxt mais souvent mal utilisé : les layouts. Dans cette vidéo, tout reste très simple, mais on va rentrer dans les cas particuliers ! :) <br />
+Au programme :
+- Les bases des layouts : default, propriété layout
+- Imbriquer des layouts
+- Utilisation de la propriété layout en tant que fonction
+- Keep-alive
+- Passer de la donnée au layout
+- Les transitions
+
+N'hésitez pas à vous abonner / follow sur Youtube ... Mais aussi :
+- Twitch : https://www.twitch.tv/lamacodeur
+- Telegram : https://t.me/lamacodeur
+- Twitter : https://twitter.com/LamaCodeur
+
+Sources :
+- [EN] Debbie : https://www.youtube.com/watch?v=0ioT7Q7kkVc
+- [FR] Documentation : https://fr.nuxtjs.org/docs/2.x/directory-structure/layouts
+- [EN] Documentation : https://nuxtjs.org/docs/2.x/directory-structure/layouts
+
+## Script de la vidéo
+
+Intro (fct pages sur Nuxt)<br />
+Subscribe / Thumb up<br />
+Générique<br />
+Pas de layout<br />
+Layout par défaut<br />
+Layout spécifique<br />
+Imbrication de layouts<br />
+Layout en tant que fonction<br />
+Passer de la donnée<br />
+Transitions<br />
+Remerciements / Sources / GitHub<br />
+Subscribe / Thumb up<br />
+
+
+## Essayez vous-même !
 ```bash
 # install dependencies
 $ yarn install
@@ -12,58 +50,4 @@ $ yarn dev
 # build for production and launch server
 $ yarn build
 $ yarn start
-
-# generate static project
-$ yarn generate
 ```
-
-For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
-
-## Special Directories
-
-You can create the following extra directories, some of which have special behaviors. Only `pages` is required; you can delete them if you don't want to use their functionality.
-
-### `assets`
-
-The assets directory contains your uncompiled assets such as Stylus or Sass files, images, or fonts.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/assets).
-
-### `components`
-
-The components directory contains your Vue.js components. Components make up the different parts of your page and can be reused and imported into your pages, layouts and even other components.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/components).
-
-### `layouts`
-
-Layouts are a great help when you want to change the look and feel of your Nuxt app, whether you want to include a sidebar or have distinct layouts for mobile and desktop.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/layouts).
-
-
-### `pages`
-
-This directory contains your application views and routes. Nuxt will read all the `*.vue` files inside this directory and setup Vue Router automatically.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/get-started/routing).
-
-### `plugins`
-
-The plugins directory contains JavaScript plugins that you want to run before instantiating the root Vue.js Application. This is the place to add Vue plugins and to inject functions or constants. Every time you need to use `Vue.use()`, you should create a file in `plugins/` and add its path to plugins in `nuxt.config.js`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/plugins).
-
-### `static`
-
-This directory contains your static files. Each file inside this directory is mapped to `/`.
-
-Example: `/static/robots.txt` is mapped as `/robots.txt`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/static).
-
-### `store`
-
-This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
